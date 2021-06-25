@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+}
+
+header {
+    background: rgb(155, 155, 201);
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-weight: normal;
+    color: white;
+}
+
+main {
+    padding-top: 180px;
+    text-align: center;
+}
+
+main div {
+    margin: 25px;
+}
+
+main h2 {
+    font-size: 2.5rem;
+}
+
+main button {
+    transform: translateY(10px);
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 220px;
+    cursor: pointer;
+    border: 2px solid #333;
+    font-size: 18px;
+}
+
+main button:hover {
+    background: #333;
+    color: white;
+}
+
+@media (max-width: 636px) {
+    main h2 {
+        font-size: 2rem;
+    }
+}
